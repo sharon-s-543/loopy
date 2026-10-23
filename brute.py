@@ -34,7 +34,7 @@ if __name__=="__main__":
     words=db.execute('SELECT * FROM brute ORDER BY id ASC').fetchall()
 
 
-    password='Hydrophis_belcheri'
+    password='voldemort'
     for row in words:
         guess=row['words']
         if guess==password:
